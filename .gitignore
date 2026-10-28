@@ -1,5 +1,10 @@
 .venv/
+venv/
+ENV/
+env/
 __pycache__/
+*.py[cod]
+*$py.class
 .ipynb_checkpoints/
 .pytest_cache/
 .env
@@ -8,4 +13,8 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 outputs/*
+!outputs/.gitkeep
+*.xlsx
+*.xls
+*.csv
 !outputs/.gitkeep
